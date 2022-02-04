@@ -17,7 +17,7 @@ export default {
             },
             {
                 slug: 'trending',
-                title: 'Recomendados para você',
+                title: 'Recomendados Para Você',
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
             {
@@ -32,7 +32,7 @@ export default {
             },
             {
                 slug: 'comedy',
-                title: 'Comedia',
+                title: 'Comédia',
                 items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {

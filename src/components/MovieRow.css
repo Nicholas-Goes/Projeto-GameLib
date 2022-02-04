@@ -2,8 +2,21 @@
     margin-bottom: 1.875rem;
 }
 
-.movieRow h2 {
+.movieRow--title h2 {
     margin: 0rem 0rem 0rem 1.875rem;
+    font-weight: 400;
+}
+.movieRow--title a {
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+    margin: 0rem 1.875rem 0rem 0rem;
+
+}
+.movieRow--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .movieRow--listarea {
@@ -16,13 +29,14 @@
 
 .movieRow--item {
     display: inline-block;
-    width: 15.625rem;
+    width: 14.625rem;
 }
 
 .movieRow--item img {
     width: 100%;
     transform: scale(0.9);
     transition: all ease 0.2s;
+    border-radius: 0.75rem;
 }
 .movieRow--item img:hover {
     transform: scale(0.95);

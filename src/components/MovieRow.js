@@ -4,8 +4,10 @@ import './MovieRow.css';
 export default ({title, items}) => {
   return (
       <div className='movieRow'>
+        <div className='movieRow--title'>
           <h2>{title}</h2>
-
+          <a href='#'>Ver mais</a>
+        </div>
           <div className='movieRow--listarea'>
 
               <div className='movieRow--list'>
