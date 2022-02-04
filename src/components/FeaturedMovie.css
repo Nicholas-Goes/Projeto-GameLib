@@ -41,6 +41,14 @@
     margin-right: 0.625rem;
 }
 
+.featured--description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem;
+    text-align: center;
+}
+
 .featured--buttons {
     display: flex;
     align-items: center;
