@@ -1,3 +1,21 @@
 .category {
-    height: 30vh;
+    height: 25vh;
+}
+
+.category--title h2 {
+    margin: 0rem 0rem 0rem 1.875rem;
+    font-weight: 400;
+}
+
+.category--title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category--title a {
+    text-decoration: none;
+    font-weight: 700;
+    color: red;
+    margin: 0rem 1.875rem 0rem 0rem;
 }

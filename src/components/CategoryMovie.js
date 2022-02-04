@@ -1,8 +1,13 @@
 import React from 'react';
 import './CategoryMovie.css'
 
-export default ({item}) => {
+export default () => {
     return (
-        <div></div>
+        <div className='category'>
+            <div className='category--title'>
+                <h2>Categoria</h2>
+                <a href='#'>Ver mais</a>
+            </div> 
+        </div>      
     );
 }
