@@ -24,15 +24,33 @@ export default () => {
                 </div>
                 <div className='category--card'>
                     <div className='card--content'>
+                        <h1>😍</h1>
+                    </div>
+                    <h3>Romance</h3>
+                </div>
+                <div className='category--card'>
+                    <div className='card--content'>
+                        <h1>😭</h1>
+                    </div>
+                    <h3>Drama</h3>
+                </div>
+                <div className='category--card'>
+                    <div className='card--content'>
                         <h1>😱</h1>
                     </div>
                     <h3>Terror</h3>
                 </div>
                 <div className='category--card'>
                     <div className='card--content'>
-                        <h1>😍</h1>
+                        <h1>🧐</h1>
                     </div>
-                    <h3>Romance</h3>
+                    <h3>Mistério</h3>
+                </div>
+                <div className='category--card'>
+                    <div className='card--content'>
+                        <h1>📚</h1>
+                    </div>
+                    <h3>Histórico</h3>
                 </div>
             </div>
         </div>      

@@ -21,6 +21,11 @@ export default {
                 items: await basicFetch(`/trending/all/week?language=pt-BR&api_key=${API_KEY}`)
             },
             {
+                slug: 'upcoming',
+                title: 'Em Breve',
+                items: await basicFetch(`/movie/upcoming?language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
                 slug: 'toprated',
                 title: 'Em Alta',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
@@ -36,14 +41,29 @@ export default {
                 items: await basicFetch(`/discover/movie?with_genres=35&language=pt-BR&api_key=${API_KEY}`)
             },
             {
+                slug: 'romance',
+                title: 'Romance',
+                items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
+                slug: 'drama',
+                title: 'Drama',
+                items: await basicFetch(`/discover/movie?with_genres=18&language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
                 slug: 'horror',
                 title: 'Terror',
                 items: await basicFetch(`/discover/movie?with_genres=27&language=pt-BR&api_key=${API_KEY}`)
             },
             {
-                slug: 'romance',
-                title: 'Romance',
-                items: await basicFetch(`/discover/movie?with_genres=10749&language=pt-BR&api_key=${API_KEY}`)
+                slug: 'mistery',
+                title: 'Mistério',
+                items: await basicFetch(`/discover/movie?with_genres=9648&language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
+                slug: 'documentary',
+                title: 'Documentario',
+                items: await basicFetch(`/discover/movie?with_genres=36&language=pt-BR&api_key=${API_KEY}`)
             },
         ];
     },

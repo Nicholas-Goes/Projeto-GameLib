@@ -1,5 +1,6 @@
 .category {
     height: 25vh;
+    overflow-x: hidden;
 }
 
 .category--title h2 {
@@ -34,6 +35,8 @@
 }
 .category--card h3 {
     text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .card--content {
