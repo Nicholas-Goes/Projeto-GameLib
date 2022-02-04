@@ -41,3 +41,24 @@
 .movieRow--item img:hover {
     transform: scale(0.95);
 }
+
+.movieRow--left,
+.movieRow--right {
+    cursor: pointer;
+    margin-top: 0.2rem;
+    position: absolute;
+    width: 2.5rem;
+    height: 23rem;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #060608;
+}
+
+.movieRow--left {
+    left: 0;
+}
+.movieRow--right {
+    right: 0;
+}

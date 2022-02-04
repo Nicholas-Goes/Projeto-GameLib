@@ -1,5 +1,7 @@
 import React from 'react';
 import './MovieRow.css';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 export default ({title, items}) => {
   return (
@@ -7,6 +9,12 @@ export default ({title, items}) => {
         <div className='movieRow--title'>
           <h2>{title}</h2>
           <a href='#'>Ver mais</a>
+        </div>
+        <div className='movieRow--left'>
+            <NavigateBeforeIcon style={{fontSize: 50}}/>
+          </div>
+          <div className='movieRow--right'>
+            <NavigateNextIcon style={{fontSize: 50}}/>
         </div>
           <div className='movieRow--listarea'>
 
