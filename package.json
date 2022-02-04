@@ -26,11 +26,17 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+  },
+  "eslintIgnore": ["App.js", "Tmdb.js", "CategoryMovie.js", "FeaturedMovie.js", "Header.js", "MovieRow.js"],
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
