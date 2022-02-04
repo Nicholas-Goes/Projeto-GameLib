@@ -19,3 +19,25 @@
     color: red;
     margin: 0rem 1.875rem 0rem 0rem;
 }
+
+.category--list {
+    width: max-content;
+}
+
+.category--card {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    margin: 1.875rem 0rem 0rem 1.875rem;
+    background-color: #262932;
+    border-radius: .5rem;
+}
+.category--card h3 {
+    text-align: center;
+}
+
+.card--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
