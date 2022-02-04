@@ -1,0 +1,61 @@
+.featured {
+    height: 80vh;
+}
+
+.featured--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #060608 10%, transparent 90%);
+}
+
+.featured--vertical2 {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to bottom, #06060869 -80%, transparent 90%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured--name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.35rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.featured--info {
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.937rem;
+}
+.featured--points {
+    color: green;
+    font-weight: bold;
+}
+.featured--info div{
+    margin-right: 0.625rem;
+}
+
+.featured--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.featured--buttons div {
+    display: flex;
+    margin: 0.55rem
+}
+.featured--watchbutton {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.1rem 1.562rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+}
