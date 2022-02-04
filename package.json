@@ -1,7 +1,7 @@
 {
   "name": "projeto-netflixclone",
   "version": "0.1.0",
-  "homepage": "https://Nicholas-Goes.github.io/Projeto-NetflixClone",
+  "homepage": "https://Nicholas-Goes.github.io/Projeto-NetflixClone/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
