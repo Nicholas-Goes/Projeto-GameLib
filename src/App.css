@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #060608;
+    color: #E8EBEA;
+    margin: 0;
+    font-family: 'DM Sans', 'sans-serif';
+}
