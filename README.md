@@ -22,12 +22,6 @@ npm install vite@latest
 npm run dev
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Nicholas Goes**
