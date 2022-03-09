@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-npm install vite@latest
+npm install
 ```
 
 ## Usage
