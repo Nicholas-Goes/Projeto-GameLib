@@ -1,6 +1,10 @@
 .category {
-    height: 25vh;
+    height: 35vh;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .category--title h2 {
@@ -12,13 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.category--title a {
-    text-decoration: none;
-    font-weight: 700;
-    color: red;
-    margin: 0rem 1.875rem 0rem 0rem;
 }
 
 .category--list {
@@ -33,6 +30,7 @@
     margin: 1.875rem 0rem 0rem 1.875rem;
     background-color: #262932;
     border-radius: .5rem;
+    
 }
 .category--card h3 {
     text-align: center;
