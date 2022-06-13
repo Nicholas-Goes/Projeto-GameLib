@@ -1,7 +1,7 @@
 import React from 'react';
 import './CategoryMovie.css'
 
-export default () => {
+function CategoryMovie() {
     return (
         <div className='category'>
             <div className='category--title'>
@@ -55,3 +55,5 @@ export default () => {
         </div>      
     );
 }
+
+export default CategoryMovie

@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturedMovie.css'
 
-export default ({item}) => {
+function FeaturedMovie({item}) {
 
     let firstDate = new Date(item.first_air_date);
     return (
@@ -44,3 +44,4 @@ export default ({item}) => {
     );
 }
 
+export default FeaturedMovie
